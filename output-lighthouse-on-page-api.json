@@ -1,0 +1,79 @@
+{
+  "success": true,
+  "type": "lighthouse",
+  "url": "https://www.wikipedia.org/",
+  "device": "desktop",
+  "categories": [
+    "performance",
+    "accessibility",
+    "best_practices",
+    "seo"
+  ],
+  "language": "en",
+  "data": {
+    "final_url": "https://www.wikipedia.org/",
+    "lighthouse_version": "13.4.0",
+    "fetched_at": "2026-11-16T03:14:22Z",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first_contentful_paint_ms": 381,
+      "largest_contentful_paint_ms": 477,
+      "total_blocking_time_ms": 90,
+      "cumulative_layout_shift": 0,
+      "speed_index_ms": 936,
+      "time_to_interactive_ms": 537
+    },
+    "failed_audits": [
+      {
+        "id": "lcp-discovery-insight",
+        "category": "performance",
+        "title": "LCP request discovery",
+        "description": "[Optimize LCP](https://developer.chrome.com/docs/performance/insights/lcp-discovery) by making the LCP image discoverable from the HTML immediately, and avoiding lazy-loading",
+        "score": 0,
+        "display_value": null,
+        "savings_ms": null,
+        "savings_bytes": null
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "category": "performance",
+        "title": "Network dependency tree",
+        "description": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.",
+        "score": 0,
+        "display_value": null,
+        "savings_ms": null,
+        "savings_bytes": null
+      },
+      {
+        "id": "cache-insight",
+        "category": "performance",
+        "title": "Use efficient cache lifetimes",
+        "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache).",
+        "score": 50,
+        "display_value": "Est savings of 19 KiB",
+        "savings_ms": null,
+        "savings_bytes": null
+      },
+      {
+        "id": "image-delivery-insight",
+        "category": "performance",
+        "title": "Improve image delivery",
+        "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)",
+        "score": 50,
+        "display_value": "Est savings of 10 KiB",
+        "savings_ms": null,
+        "savings_bytes": null
+      }
+    ],
+    "passed_count": 68,
+    "failed_count": 4,
+    "warnings": []
+  },
+  "cost": 0.0055,
+  "cached": false
+}
